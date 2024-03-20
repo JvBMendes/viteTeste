@@ -1,13 +1,12 @@
-import Graficos from "./Graficos"
+import Graficos from "./components/Graficos"
 
 export const Home = () => {
-    return (
+    return(
         <>
-        <Graficos text="Graficos de linha" color= "lightpink" whatChart = "line"/>
-        <Graficos text="Graficos de area" color= "lightblue"  whatChart = "area"/>
-        <Graficos text="Graficos de pizza" color= "lightyellow"  whatChart = "line"/>
-        <Graficos text="Graficos de barra" color= "lightgreen"  whatChart = "line"/>
-
+         <Graficos text="Grafico de linha" color="lightpink" whatChart='line'/>
+         <Graficos text="Grafico de area" color="lightblue" whatChart='area'/>
+         <Graficos text="Grafico de pizza" color="lightgrey" whatChart='pie'/>
+         <Graficos text="Grafico de barra" color="lightgreen" whatChart='bar'/>
         </>
     )
 }
